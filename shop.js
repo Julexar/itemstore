@@ -214,7 +214,7 @@ const rareList = ['Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary', 'Rando
     props: string,
     price: number,
     weight: number,
-    amount: number,
+    quantity: number,
     bundle: number,
     rarity: string
 }
@@ -235,7 +235,7 @@ const itemList = {
             props: 'Light',
             price: 0.1,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -246,7 +246,7 @@ const itemList = {
             props: 'Finesse, Light, Thrown',
             price: 2,
             weight: 1,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -257,7 +257,7 @@ const itemList = {
             props: 'Two-Handed',
             price: 0.2,
             weight: 10,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -268,7 +268,7 @@ const itemList = {
             props: 'Light, Thrown',
             price: 5,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -279,7 +279,7 @@ const itemList = {
             props: 'Thrown',
             price: 0.5,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -290,7 +290,7 @@ const itemList = {
             props: 'Light, Thrown',
             price: 2,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -301,7 +301,7 @@ const itemList = {
             props: '',
             price: 5,
             weight: 4,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -312,7 +312,7 @@ const itemList = {
             props: 'Versatile',
             price: 0.2,
             weight: 4,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -323,7 +323,7 @@ const itemList = {
             props: 'Light',
             price: 1,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -334,7 +334,7 @@ const itemList = {
             props: 'Thrown, Versatile',
             price: 1,
             weight: 3,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -345,7 +345,7 @@ const itemList = {
             props: 'Ammunition, Loading, Two-Handed',
             price: 25,
             weight: 5,
-            amount: 1,
+            quantity: 1,
             rarity: 'common',
         },
         {
@@ -355,7 +355,7 @@ const itemList = {
             props: 'Finesse, Thrown',
             price: 0.05,
             weight: 0.25,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -366,7 +366,7 @@ const itemList = {
             props: 'Ammunition, Two-Handed',
             price: 25,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -377,7 +377,7 @@ const itemList = {
             props: 'Ammunition',
             price: 0.1,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -388,7 +388,7 @@ const itemList = {
             props: 'Versatile',
             price: 10,
             weight: 4,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -399,7 +399,7 @@ const itemList = {
             props: '',
             price: 10,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -410,7 +410,7 @@ const itemList = {
             props: 'Heavy, Reach, Two-Handed',
             price: 20,
             weight: 6,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -421,7 +421,7 @@ const itemList = {
             props: 'Heavy, Two-Handed',
             price: 30,
             weight: 7,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -432,7 +432,7 @@ const itemList = {
             props: 'Heavy, Two-Handed',
             price: 50,
             weight: 6,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -443,7 +443,7 @@ const itemList = {
             props: 'Heavy, Reach, Two-Handed',
             price: 20,
             weight: 6,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -454,7 +454,7 @@ const itemList = {
             props: 'Reach, Special',
             price: 10,
             weight: 6,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -465,7 +465,7 @@ const itemList = {
             props: 'Versatile',
             price: 15,
             weight: 3,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -476,7 +476,7 @@ const itemList = {
             props: 'Heavy, Two-Handed',
             price: 10,
             weight: 10,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -487,7 +487,7 @@ const itemList = {
             props: '',
             price: 15,
             weight: 4,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -498,7 +498,7 @@ const itemList = {
             props: 'Heavy, Reach, Two-Handed',
             price: 5,
             weight: 18,
-            amount: 1,
+            quantity: 1,
             rarity: 'common',
         },
         {
@@ -508,7 +508,7 @@ const itemList = {
             props: 'Finesse',
             price: 25,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -519,7 +519,7 @@ const itemList = {
             props: 'Finesse, Light',
             price: 25,
             weight: 3,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -530,7 +530,7 @@ const itemList = {
             props: 'Finesse, Light',
             price: 10,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -541,7 +541,7 @@ const itemList = {
             props: 'Thrown, Versatile',
             price: 5,
             weight: 4,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -552,7 +552,7 @@ const itemList = {
             props: '',
             price: 5,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -563,7 +563,7 @@ const itemList = {
             props: 'Versatile',
             price: 15,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -574,7 +574,7 @@ const itemList = {
             props: 'Finesse, Reach',
             price: 2,
             weight: 3,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -585,7 +585,7 @@ const itemList = {
             props: 'Ammunition, Loading',
             price: 10,
             weight: 1,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -596,7 +596,7 @@ const itemList = {
             props: 'Ammunition, Light, Loading',
             price: 75,
             weight: 3,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -607,7 +607,7 @@ const itemList = {
             props: 'Ammunition, Heavy, Loading, Two-Handed',
             price: 50,
             weight: 18,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -618,7 +618,7 @@ const itemList = {
             props: 'Ammunition, Heavy, Two-Handed',
             price: 50,
             weight: 2,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -629,7 +629,7 @@ const itemList = {
             props: 'Thrown, Special',
             price: 1,
             weight: 3,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -640,7 +640,7 @@ const itemList = {
             props: '',
             price: 1,
             weight: 0.05,
-            amount: 1,
+            quantity: 1,
             bundle: 20,
             rarity: 'common',
         },
@@ -651,7 +651,7 @@ const itemList = {
             props: '',
             price: 1,
             weight: 0.02,
-            amount: 1,
+            quantity: 1,
             bundle: 50,
             rarity: 'common',
         },
@@ -662,7 +662,7 @@ const itemList = {
             props: '',
             price: 1,
             weight: 0.075,
-            amount: 1,
+            quantity: 1,
             bundle: 20,
             rarity: 'common',
         },
@@ -673,7 +673,7 @@ const itemList = {
             props: '',
             price: 0.04,
             weight: 0.075,
-            amount: 1,
+            quantity: 1,
             bundle: 20,
             rarity: 'common',
         },
@@ -686,7 +686,7 @@ const itemList = {
             props: '',
             price: 5,
             weight: 8,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -697,7 +697,7 @@ const itemList = {
             props: '',
             price: 10,
             weight: 10,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -708,7 +708,7 @@ const itemList = {
             props: '',
             price: 45,
             weight: 13,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -719,7 +719,7 @@ const itemList = {
             props: '',
             price: 10,
             weight: 12,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -730,7 +730,7 @@ const itemList = {
             props: '',
             price: 50,
             weight: 20,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -741,7 +741,7 @@ const itemList = {
             props: '',
             price: 50,
             weight: 45,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -752,7 +752,7 @@ const itemList = {
             props: '',
             price: 400,
             weight: 20,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -763,7 +763,7 @@ const itemList = {
             props: '',
             price: 750,
             weight: 40,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -774,7 +774,7 @@ const itemList = {
             props: '',
             price: 30,
             weight: 40,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -785,7 +785,7 @@ const itemList = {
             props: '',
             price: 75,
             weight: 55,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -796,7 +796,7 @@ const itemList = {
             props: '',
             price: 200,
             weight: 60,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -807,7 +807,7 @@ const itemList = {
             props: '',
             price: 1500,
             weight: 65,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -818,7 +818,7 @@ const itemList = {
             props: '',
             price: 10,
             weight: 6,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -832,7 +832,7 @@ const itemList = {
             rarity: 'common',
             price: 10,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -843,7 +843,7 @@ const itemList = {
             rarity: 'common',
             price: 60,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -854,7 +854,7 @@ const itemList = {
             rarity: 'uncommon',
             price: 120,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -865,7 +865,7 @@ const itemList = {
             rarity: 'uncommon',
             price: 250,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -876,7 +876,7 @@ const itemList = {
             rarity: 'rare',
             price: 520,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -887,7 +887,7 @@ const itemList = {
             rarity: 'rare',
             price: 850,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -898,7 +898,7 @@ const itemList = {
             rarity: 'very rare',
             price: 1500,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -909,7 +909,7 @@ const itemList = {
             rarity: 'very rare',
             price: 2550,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -920,7 +920,7 @@ const itemList = {
             rarity: 'very rare',
             price: 5250,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
         {
@@ -931,7 +931,7 @@ const itemList = {
             rarity: 'legendary',
             price: 10250,
             weight: 0,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
         },
     ],
@@ -1457,7 +1457,7 @@ const itemList = {
             props: '',
             price: 180,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -1468,7 +1468,7 @@ const itemList = {
             props: '',
             price: 50,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'common',
         },
@@ -1479,7 +1479,7 @@ const itemList = {
             props: '',
             price: 90,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1490,7 +1490,7 @@ const itemList = {
             props: '',
             price: 100,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1501,7 +1501,7 @@ const itemList = {
             props: '',
             price: 120,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1512,7 +1512,7 @@ const itemList = {
             props: '',
             price: 150,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1523,7 +1523,7 @@ const itemList = {
             props: '',
             price: 150,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1534,7 +1534,7 @@ const itemList = {
             props: '',
             price: 180,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1545,7 +1545,7 @@ const itemList = {
             props: '',
             price: 180,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1556,7 +1556,7 @@ const itemList = {
             props: '',
             price: 200,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1567,7 +1567,7 @@ const itemList = {
             props: '',
             price: 270,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1578,7 +1578,7 @@ const itemList = {
             props: '',
             price: 270,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1589,7 +1589,7 @@ const itemList = {
             props: '',
             price: 300,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1600,7 +1600,7 @@ const itemList = {
             props: '',
             price: 300,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1611,7 +1611,7 @@ const itemList = {
             props: '',
             price: 400,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1622,7 +1622,7 @@ const itemList = {
             props: '',
             price: 450,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1633,7 +1633,7 @@ const itemList = {
             props: '',
             price: 450,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1644,7 +1644,7 @@ const itemList = {
             props: '',
             price: 480,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1655,7 +1655,7 @@ const itemList = {
             props: '',
             price: 500,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1666,7 +1666,7 @@ const itemList = {
             props: '',
             price: 500,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'uncommon',
         },
@@ -1677,7 +1677,7 @@ const itemList = {
             props: '',
             price: 600,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1688,7 +1688,7 @@ const itemList = {
             props: '',
             price: 700,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1699,7 +1699,7 @@ const itemList = {
             props: '',
             price: 960,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1710,7 +1710,7 @@ const itemList = {
             props: '',
             price: 960,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1721,7 +1721,7 @@ const itemList = {
             props: '',
             price: 1350,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1732,7 +1732,7 @@ const itemList = {
             props: '',
             price: 1400,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1743,7 +1743,7 @@ const itemList = {
             props: '',
             price: 1550,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1754,7 +1754,7 @@ const itemList = {
             props: '',
             price: 1800,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1765,7 +1765,7 @@ const itemList = {
             props: '',
             price: 1920,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1776,7 +1776,7 @@ const itemList = {
             props: '',
             price: 2000,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1787,7 +1787,7 @@ const itemList = {
             props: '',
             price: 2000,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1798,7 +1798,7 @@ const itemList = {
             props: '',
             price: 3000,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1809,7 +1809,7 @@ const itemList = {
             props: '',
             price: 3200,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1820,7 +1820,7 @@ const itemList = {
             props: '',
             price: 3840,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'rare',
         },
@@ -1831,7 +1831,7 @@ const itemList = {
             props: '',
             price: 5000,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1842,7 +1842,7 @@ const itemList = {
             props: '',
             price: 6000,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'very rare',
         },
@@ -1853,7 +1853,7 @@ const itemList = {
             props: '',
             price: 9000,
             weight: 0.5,
-            amount: 1,
+            quantity: 1,
             bundle: 1,
             rarity: 'legendary',
         },
@@ -2016,10 +2016,10 @@ class ItemStore {
                                                             if (isNaN(parseInt(args[7])))
                                                                 return sendChat(
                                                                     'Item Store',
-                                                                    '/w gm Invalid Syntax! You must provide a number to set the amount of the Item!'
+                                                                    '/w gm Invalid Syntax! You must provide a number to set the quantity of the Item!'
                                                                 );
 
-                                                            shopObjs.temp.amount = parseInt(args[7]);
+                                                            shopObjs.temp.quantity = parseInt(args[7]);
                                                             invItemEditor(store, item);
                                                             break;
                                                         case 'mods':
@@ -2187,9 +2187,7 @@ class ItemStore {
                         case 'create':
                             if (args[2] === '' || args[2] === ' ')
                                 return sendChat('Item Store', '/w gm Invalid Syntax! The name of the Store may not be empty!');
-                            log("Store created - setting menu");
                             createStore(args[2]);
-                            log("Store created - setting menu");
                             storeMenu(args[2]);
                             break;
                         case 'reset':
@@ -2756,7 +2754,7 @@ function setStoreDefaults() {
 */
 
 function setCartDefaults() {
-    shopObjs.carts = [];
+    shopObjs.carts = new Map();
 }
 
 function setTempDefaults() {
@@ -2768,7 +2766,7 @@ function setTempDefaults() {
         props: [],
         price: 0,
         weight: 0,
-        amount: 1,
+        quantity: 1,
         bundle: 1,
     };
 }
@@ -2879,6 +2877,81 @@ class Store {
     }
 }
 
+class Item {
+    constructor(name, desc, rarity, mods, props, price, weight, quantity = 1, bundle = 1) {
+        if (name === "" || name === " ") return sendChat('Item Store', '/w gm Invalid Syntax! The name of the Item may not be empty!');
+        this.name = name;
+        this.desc = desc.split('; ');
+        this.rarity = rarity;
+        this.mods = mods;
+        this.props = props;
+        this.price = price;
+        this.weight = weight;
+        this.quantity = quantity;
+        this.bundle = bundle;
+    }
+
+    menu() {
+        // itemMenu goes here
+    }
+
+    edit(prop, value) {
+
+    }
+
+    modMenu() {
+        // itemModMenu goes here
+    }
+
+    addMod(mod) {
+        // addItemMod goes here
+    }
+
+    remMod(mod) {
+        // remItemMod goes here
+    }
+
+    propMenu() {
+        // itemPropMenu goes here
+    }
+
+    addProp(prop) {
+        // addItemProp goes here
+    }
+
+    remProp(prop) {
+        // remItemProp goes here
+    }
+}
+
+class Cart {
+    constructor(charid) {
+        this.num = shopObjs.carts.size + 1;
+        this.charid = charid;
+        this.content = [];
+    }
+
+    menu() {
+        // cartMenu goes here
+    }
+
+    itemMenu(item) {
+        // showCartItem goes here
+    }
+
+    haggle(item, price, skill) {
+        // haggleCartItem goes here
+    }
+
+    remItem(item) {
+        // remCartItem goes here
+    }
+
+    checkout() {
+        // buyFromCart goes here
+    }
+}
+
 function storeMenu(storeName) {
     sendChat("Item Store",`In store menu with store name ${storeName}`);
     if (!storeName) {
@@ -2966,7 +3039,7 @@ function storeMenu(storeName) {
                 pos++;
                 const price = item.price + (item.price / 100) * store.price_change;
                 const desc = item.desc.split(';')[0];
-                invList += `<tr ${itemstore.style.trInv}><td ${itemstore.style.tdInv}>${pos}</td><td ${itemstore.style.tdInv}>${item.amount}</td><td ${itemstore.style.tdInv}>${item.name}</td><td ${itemstore.style.tdInv}>${desc}</td><td ${itemstore.style.divCenter}>${price}</td></tr>`;
+                invList += `<tr ${itemstore.style.trInv}><td ${itemstore.style.tdInv}>${pos}</td><td ${itemstore.style.tdInv}>${item.quantity}</td><td ${itemstore.style.tdInv}>${item.name}</td><td ${itemstore.style.tdInv}>${desc}</td><td ${itemstore.style.divCenter}>${price}</td></tr>`;
             });
 
             sendChat("Item Store",`/w gm <div ${itemstore.style.divMenu}>` + //--
@@ -3009,19 +3082,11 @@ function createStore(storeName) {
         sendChat("Item Store",`A store named (${storeName}) already exists`);
         return;
     };
-    let newStore = {};
-    newStore= {
-            name: `${storeName}`,
-            inv: [],
-            hdc: 10,
-            cprice: 0,
-            active: true
-        };
-    sendChat("Item Store",`store is ${JSON.stringify(newStore)}`);
+    
+    const newStore = new Store(storeName);
     shopObjs.stores.set(storeName, newStore);
-    sendChat("Item Store",`shopObjs.stores is ${JSON.stringify(shopObjs.stores)}`);
-    sendChat("Item Store",`/w gm Store with the name ${storeName} created!`);
-    log("Entering checkStores()");
+    log(`shopObjs.stores is ${JSON.stringify(shopObjs.stores)}`);
+    sendChat("Item Store",`/w gm Created new Store: ${JSON.stringify(newStore)}`);
     checkStores();
     return;
 }
@@ -3034,23 +3099,21 @@ function checkStores() {
 
 function findActiveStore() {
     log("finding active store");
-    let rv = null;
-    let foundOne = false;
-    for (const [storeName, store] of shopObjs.stores) {
-        if(store.active) {
-            if(foundOne) {
-                sendChat("Item Store",`Found multiple active stores.  Using first active store`)
-                return rv;
-            }
-            rv=storeName;
-            foundOne = true;
-        };
-    };
-    if(!foundOne) {
-        sendChat("Item Store",`Found no stores.`)
+    let foundStore;
+
+    shopObjs.stores.forEach((store, storeName) => {
+        if (store.active) {
+            sendChat("Item Store",`/w gm Found multiple active stores.  Using first active store`)
+            foundStore = storeName;
+            return;
+        }
+    });
+
+    if (!foundStore) {
+        sendChat("Item Store",`/w gm No active stores found`);
     }
-    log("returning zero or one stores");
-    return rv;
+
+    return foundStore;
 };
 
 function itemMenu() {
